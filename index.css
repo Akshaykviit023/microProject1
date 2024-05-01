@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.banner{
+    margin: 0 auto;
+}
+
+.bannerContainer{
+    
+    
+    background-color: #FFCD9E;
+
+}
+.bannerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 3rem;
+
+}
+
+.bannerContent > div{
+    width: 45%;
+    padding-top: 4rem;
+}
+
+.bannerContent > div > h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.bannerContent > div > p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.bannerContent > div > .action1{
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.callToAction{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+input{
+    border: 4px solid black;
+    width: 344px;
+    height: 56px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 0 1.5rem;
+}
+
+button{
+    background-color: #282828;
+    height: 64px;
+    width: 216px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: #282828;
+    font-size: 20px;
+    padding: 4rem 0;
+}
+
+.footerContainer{
+    width: 70%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContent2{
+    text-align: end;
+}
+.socialMediaImages{
+    display: flex;
+    justify-content: end;
+    gap: 4px;
+}
+
+@media only screen and (max-width: 1536px){
+    .bannerContent > div > h1{
+        font-size: 30px;
+    }
+    
+    .bannerContent > div > p{
+        font-size: 16px;
+    }
+    
+    .bannerContent > div > .action1{
+        font-size: 16px;
+    }
+    
+    input{
+        border: 4px solid black;
+        width: 300px;
+        height: 48px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        padding: 0 1.5rem;
+    }
+    
+    button{
+        background-color: #282828;
+        height: 56px;
+        width: 200px;
+        border-radius: 8px;
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+}
+
+@media only screen and (max-width: 1280px){
+
+    .dweepImg{
+        display: none;
+    }
+    .bannerContent{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 75%;
+        margin: 0 auto;
+        padding: 3rem 3rem;
+        text-align: center;
+    
+    }
+    
+    .bannerContent > div{
+        width: 100%;
+    }
+    .callToAction{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+}
